@@ -1,6 +1,5 @@
 ### | webpack
-####### webpack它支持了AMD 和 CommonJS 类型，通过loader 机制也可以使用ES6模块格式。
-####### 还有强大的 code splitting。webpack 是个十分强大的工具，它正在想一个全能型的构建工具发展。
+webpack它支持了AMD 和 CommonJS 类型，通过loader 机制也可以使用ES6模块格式。还有强大的 code splitting。webpack 是个十分强大的工具，它正在想一个全能型的构建工具发展。
 ```
 // webpack.config.js
 'use strict'
@@ -51,10 +50,7 @@ module.exports = config
 ```
 
 ### |  Grunt
-####### Grunt的出现早于Gulp，Gulp是后起之秀。
-####### 他们的本质都是通过 JavaScript 语法实现了shell script 命令的一些功能。
-####### 比如利用jshint插件 实现 JavaScript 代码格式检查这一个功能。
-####### 早期需要手动在命令行中输入 jshint test.js，而 Grunt 则通过文件 Gruntfile.js 进行配置
+Grunt的出现早于Gulp，Gulp是后起之秀。他们的本质都是通过 JavaScript 语法实现了shell script 命令的一些功能。比如利用jshint插件 实现 JavaScript 代码格式检查这一个功能。早期需要手动在命令行中输入 jshint test.js，而 Grunt 则通过文件 Gruntfile.js 进行配置
 ```
 // Gruntfile.js
 module.exports = function(grunt) {
@@ -74,8 +70,7 @@ module.exports = function(grunt) {
 ```
 
 ### | Gulp
-####### Gulp吸取了Grunt的优点，拥有更简便的写法，通过流（Stream）的概念来简化多任务之间的配置和输出.
-####### 通过配置gulpfile.js文件来实现，一个简单的gulpfile.js配置如下
+Gulp吸取了Grunt的优点，拥有更简便的写法，通过流（Stream）的概念来简化多任务之间的配置和输出.通过配置gulpfile.js文件来实现，一个简单的gulpfile.js配置如下
 ```
 // gulpfile.js
 var gulp = require('gulp');
